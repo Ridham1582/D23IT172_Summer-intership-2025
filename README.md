@@ -1,4 +1,5 @@
 🧠 Internship Project – Java-Based File Handling Utility (May 2025)
+
 This repository documents the progress and deliverables of my internship starting 14th May 2025, focusing on developing a File Handling Utility in Java. This is the first major task of my internship, and it will be completed within 7–10 days.
 
 📅 Timeline
@@ -68,5 +69,7 @@ Managing error handling, logging, and edge cases
 ✅ This project is actively maintained, and progress was tracked daily from 14–21 May 2025.
 
 👨‍💻 Developed by: Vadoliya Ridham
+
 📅 Internship Duration: 14 May 2025 – 29 June 2025
+
 📁 Task Duration: 14 May – 21 May 2025 (7–10 days)
