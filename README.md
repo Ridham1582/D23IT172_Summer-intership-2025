@@ -1,5 +1,3 @@
-🧠 Internship Project – Java-Based File Handling Utility (May 2025)
-
 This repository documents the progress and deliverables of my internship starting 14th May 2025, focusing on developing a File Handling Utility in Java. This is the first major task of my internship, and it will be completed within 7–10 days.
 
 📅 Timeline
