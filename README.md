@@ -3,13 +3,21 @@ This repository documents the progress and deliverables of my internship startin
 
 📅 Timeline
 Date	Activity
+
 14/05/2025	📌 Internship started – Introduced to project scope
+
 15/05/2025	🔍 Researched Java I/O libraries and file systems
+
 16/05/2025	🛠️ Started building core file operations (read/write/copy/delete)
+
 17/05/2025	✅ Implemented file creation and modification functions
+
 18/05/2025	✅ Added support for recursive directory operations
+
 19/05/2025	🧪 Performed testing and exception handling
+
 20/05/2025	✅ Finalized UI (CLI-based) and packaged the utility
+
 21/05/2025	📦 Documentation and GitHub upload
 
 🔧 Task 1: File Handling Utility in Java 📁
