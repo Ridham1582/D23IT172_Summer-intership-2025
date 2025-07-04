@@ -1,58 +1,57 @@
-# 🌞 Summer Internship Report 2025 - Full Stack Web Development
+# 🌞 **Summer Internship Report 2025 - Java Development**
 
-**👨‍🎓 Name**: Chhatrala Tirth  
+**👨‍🎓 Name**: Vadoliya Ridham  
 **🏫 College**: Charusat University  
 **🏢 Company**: Elite Tech  
 **📆 Internship Duration**: 14th May 2025 – 30th June 2025 (1.5 months)  
-**💻 Domain**: Full Stack Web Development
+**💻 Domain**: Java Development
 
 ---
 
-## 📅 Day-by-Day Work Log
+## 📅 **Day-by-Day Work Log**
 
-### 🛠️ Week 1 – Foundation (14th May – 18th May)
-- **Day 1**: Orientation, project overview, tech stack introduction (MERN).
-- **Day 2**: HTML5 & semantic structure building.
-- **Day 3**: CSS - Flexbox, Grid, responsive layout design.
-- **Day 4**: JavaScript fundamentals and DOM manipulation.
-- **Day 5**: Git & GitHub – Repo creation and version control.
+### 🛠️ **Week 1 – Java Basics & OOP (14th May – 18th May)**
+- **Day 1**: Orientation, internship goals, Java setup using IntelliJ.
+- **Day 2**: Java syntax, data types, and operators.
+- **Day 3**: Control statements (if-else, switch, loops).
+- **Day 4**: Functions and parameter passing.
+- **Day 5**: Object-Oriented Programming (Classes and Objects).
 
-### ⚛️ Week 2 – React Frontend (20th May – 24th May)
-- **Day 6**: React setup, introduction to JSX.
-- **Day 7**: Functional components, props and state.
-- **Day 8**: useEffect, conditional rendering.
-- **Day 9**: React Router – SPA navigation.
-- **Day 10**: Reusable UI component design.
+### 📦 **Week 2 – Advanced Java & Collections (20th May – 24th May)**
+- **Day 6**: Inheritance, Polymorphism, Abstraction, and Encapsulation.
+- **Day 7**: Exception Handling.
+- **Day 8**: Java Collections – List, Set, Map, and their implementations.
+- **Day 9**: Generics and Iterator.
+- **Day 10**: Wrapper classes and Autoboxing.
 
-### 🧩 Week 3 – Backend with Node.js & Express (27th May – 31st May)
-- **Day 11**: Node.js fundamentals.
-- **Day 12**: Express.js and REST APIs.
-- **Day 13**: MongoDB CRUD using Mongoose.
-- **Day 14**: API Testing via Postman.
-- **Day 15**: Middleware - CORS, Helmet for security.
+### 🌐 **Week 3 – File Handling & JDBC (27th May – 31st May)**
+- **Day 11**: File I/O – Reading and Writing text files.
+- **Day 12**: Serialization and Deserialization.
+- **Day 13**: JDBC Introduction and MySQL Connection.
+- **Day 14**: CRUD Operations using JDBC.
+- **Day 15**: JDBC with Prepared Statements and Transactions.
 
-### 🔐 Week 4 – Integration & Auth (3rd June – 7th June)
-- **Day 16**: Frontend-backend API integration.
-- **Day 17**: JWT Authentication.
-- **Day 18**: Protected routes and token validation.
-- **Day 19**: Form validation (React Hook Form + Joi).
-- **Day 20**: Admin/User dashboard setup.
+### 💻 **Week 4 – Java GUI & Multi-threading (3rd June – 7th June)**
+- **Day 16**: Java Swing – JFrame, JPanel, JButton.
+- **Day 17**: Layout Managers and Event Handling.
+- **Day 18**: Building a small GUI-based calculator.
+- **Day 19**: Introduction to Threads and Lifecycle.
+- **Day 20**: Thread synchronization and Runnable interface.
 
-### 🚀 Week 5 – Advanced Features & Deployment (10th June – 14th June)
-- **Day 21**: File Upload (Multer).
-- **Day 22**: Pagination and filtering.
-- **Day 23**: Admin panel and RBAC.
-- **Day 24**: Deployment – Vercel (Frontend), Render (Backend).
-- **Day 25**: CI/CD basics with GitHub Actions.
+### ☁️ **Week 5 – Mini Project & Deployment (10th June – 14th June)**
+- **Day 21**: Mini project planning and design (Inventory Management System).
+- **Day 22**: Backend logic and database integration.
+- **Day 23**: GUI development and event handling.
+- **Day 24**: Testing and bug fixing.
+- **Day 25**: Creating JAR file and documentation.
 
-### 🧪 Week 6 – Testing & Finalization (17th June – 21st June)
-- **Day 26**: Unit Testing – Jest and React Testing Library.
-- **Day 27**: Code refactoring and performance improvement.
-- **Day 28**: Documentation and README writing.
-- **Day 29**: Final code review and performance testing.
-- **Day 30**: Final deployment and presentation prep.
+### 🧪 **Week 6 – Finalization & Testing (17th June – 21st June)**
+- **Day 26**: Final testing of the application.
+- **Day 27**: Performance improvements and code refactoring.
+- **Day 28**: Writing README and user manual.
+- **Day 29**: Project presentation preparation.
+- **Day 30**: Final review with mentor.
 
-
-### 🎤 Final Week (24th June – 30th June)
-- **Day 31–34**: Final project presentation and demo.
-- **Day 35**: Feedback session and internship completion.
+### 🎤 **Final Week (24th June – 30th June)**
+- **Day 31–34**: Project presentation and demo to company team.
+- **Day 35**: Feedback session and certificate distribution.
