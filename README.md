@@ -1,138 +1,214 @@
-# 📘 Internship Progress & Deliverables
+📘 Internship Progress & Deliverables
+👨‍💻 Intern: Vadoliya Ridham
+📅 Internship Duration: 14 May 2025 – 30 June 2025
 
-**👨‍💻 Intern:** Vadoliya Ridham  
-**📅 Internship Duration:** 14 May 2025 – 29 June 2025
+This repository documents the progress and deliverables of my internship starting on 14th May 2025, focused on building core Java applications and systems. Each task includes a timeline, tech stack, key features, and a learning summary.
 
-This repository documents the progress and deliverables of my internship starting on **14th May 2025**, focusing on developing core Java utilities and applications. Each task is structured with a timeline, technologies used, features implemented, and a summary of learnings.
+🔧 Task 1: File Handling Utility in Java 📁
+🗓️ Task Duration: 14 May – 21 May 2025 (7–8 days)
+📝 Description
+Created a robust Command-Line Interface (CLI) based file handling tool in Java supporting essential file and directory operations. It is designed for ease of use, portability, and includes thorough exception handling.
 
----
+📅 Timeline
+Date	Activity
+14/05/2025	📌 Internship started – Project scope and planning
+15/05/2025	🔍 Studied Java I/O libraries and filesystem structure
+16/05/2025	🛠️ Implemented core file operations (read/write/copy/delete)
+17/05/2025	✅ Created functions for file modification and validation
+18/05/2025	✅ Recursive directory operations and cleanup
+19/05/2025	🧪 Tested edge cases and added error logging
+20/05/2025	✅ Finalized CLI structure and packaged application
+21/05/2025	📦 Uploaded to GitHub with documentation
 
-## 🔧 Task 1: File Handling Utility in Java 📁  
-### 🗓️ Task Duration: 14 May – 21 May 2025 (7–10 days)
+📌 Features
+📄 Create, write, read, copy, delete, and rename files
 
-### 📝 Description  
-Created a robust **Command-Line Interface (CLI)** based file handling tool in Java that supports essential file and directory operations. The utility is platform-independent, easy to use, and designed with clear exception handling and logging.
+📂 Manage directories and their contents recursively
 
----
+🔁 Supports nested operations with validation
 
-### 📅 Timeline
+🔒 Full exception handling with custom messages
 
-| Date        | Activity                                                                 |
-|-------------|--------------------------------------------------------------------------|
-| 14/05/2025  | 📌 Internship started – Introduced to project scope                      |
-| 15/05/2025  | 🔍 Researched Java I/O libraries and file systems                        |
-| 16/05/2025  | 🛠️ Started building core file operations (read/write/copy/delete)        |
-| 17/05/2025  | ✅ Implemented file creation and modification functions                   |
-| 18/05/2025  | ✅ Added support for recursive directory operations                       |
-| 19/05/2025  | 🧪 Performed testing and exception handling                               |
-| 20/05/2025  | ✅ Finalized UI (CLI-based) and packaged the utility                      |
-| 21/05/2025  | 📦 Documentation and GitHub upload                                       |
+🖥️ Interactive CLI interface
 
----
+⚙️ Technologies Used
+Category	Tools / Libraries
+Language	Java
+I/O Handling	java.io, java.nio.file
+Utilities	File, Path, Scanner, Files
+Logging & Errors	Try-Catch blocks, custom exception messages
+Interface	Command-Line Interface (CLI)
 
-### 📌 Features
+🚀 Summary
+This task enhanced my:
 
-- ✅ Create, read, write, copy, rename, and delete files  
-- 📂 Create and manage directories  
-- 🔁 Recursive directory traversal and operations  
-- 🔒 Exception-safe with detailed logging  
-- 🧪 User-friendly CLI for interaction  
+Java I/O operations knowledge
 
----
+CLI application development
 
-### ⚙️ Technologies Used
+Code structuring and exception management skills
 
-| Category         | Tools / Libraries                              |
-|------------------|------------------------------------------------|
-| Language         | Java                                           |
-| I/O Handling     | `java.io`, `java.nio.file`                     |
-| Utilities        | `java.util`, `Scanner`, `File`, `Path`, `Files`|
-| Logging & Errors | Try-Catch blocks, Custom error messages        |
-| UI               | CLI (Command-Line Interface)                   |
+Real-world implementation of file systems in Java
 
----
+✅ Task completed and uploaded to repository
 
-### 🛠️ Main Functions Implemented
+🌐 Task 2: REST API Client in Java 🔌
+🗓️ Task Duration: 22 May – 27 May 2025
+📝 Description
+Built a Java-based REST API Client that connects to public APIs, sends HTTP requests, parses JSON responses, and displays the data in a structured format. Focus was on modular design and clean response handling.
 
-| Function Name              | Purpose                                              |
-|----------------------------|------------------------------------------------------|
-| `createFile()`             | Creates a new file at a specified path               |
-| `writeToFile()`            | Writes/overwrites data into a file                   |
-| `readFromFile()`           | Reads content from a file                            |
-| `copyFile()`               | Copies a file from one location to another           |
-| `deleteFile()`             | Deletes a specified file                             |
-| `createDirectory()`        | Creates a new directory                              |
-| `listDirectoryContents()`  | Recursively lists all contents in a directory        |
-| `renameFileOrDirectory()`  | Renames a file or folder                             |
+📅 Timeline
+Date	Activity
+22/05/2025	🧭 RESTful service overview and use case planning
+23/05/2025	🔍 Researched HTTP protocols and Java network APIs
+24/05/2025	🛠️ Built HTTP request logic and response handler
+25/05/2025	🔄 Fetched weather data from MetaWeather/OpenWeather API
+26/05/2025	🧪 Parsed JSON and structured the output to CLI
+27/05/2025	✅ Finalized error handling and UI
 
----
+📌 Features
+🔗 GET and POST request support
 
-### 🚀 Summary  
-This task strengthened my Java fundamentals and improved my ability to:
+📄 JSON parsing using org.json
 
-- Handle files and directories in real-world scenarios  
-- Utilize Java’s I/O packages effectively  
-- Design error-resilient, command-line tools  
-- Implement structured logging and exception management  
+🔒 Basic error and timeout handling
 
-✅ **Project successfully completed and documented.**
+🖥️ CLI output with user-friendly messages
 
----
+⚙️ Technologies Used
+Category	Tools / Libraries
+Language	Java
+Networking	HttpURLConnection, java.net.URL
+JSON Parsing	org.json
+Interface	CLI
+Error Handling	Try-Catch, status code checking
 
-## 🌐 Task 2: REST API Client in Java 🔌  
-### 🗓️ Task Duration: 22 May 2025 – Present (Ongoing)
+🚀 Summary
+This task helped me:
 
-### 📝 Description  
-Currently developing a **REST API Client in Java** to interact with external APIs, process JSON responses, and implement data transformation logic. This task focuses on using `HttpURLConnection`, JSON parsing, and efficient network communication handling.
+Understand client-server communication
 
----
+Parse API responses efficiently
 
-### 📅 Timeline
+Handle errors gracefully in networking
 
-| Date        | Activity                                                                 |
-|-------------|--------------------------------------------------------------------------|
-| 22/05/2025  | 🧭 Started Task 2 – Overview of RESTful services and client design       |
-| 23/05/2025  | 🔍 Researched HTTP protocols and Java networking libraries               |
-| 24/05/2025  | 🛠️ Set up project structure and dependencies                            |
-| 25/05/2025  | 🔄 Implemented basic GET and POST request handling                       |
-| 26/05/2025  | 🧪 Working on JSON parsing and response mapping                          |
-| 27/05/2025+ | 🚧 Ongoing development – Adding authentication, error handling, and UI   |
+Work with external services and transform data
 
----
+✅ Task completed and documented
 
-### 📌 Features (Planned & In Progress)
+💬 Task 3: Multithreaded Chat Application 💻
+🗓️ Task Duration: 28 May – 6 June 2025
+📝 Description
+Developed a multithreaded client-server chat system using Java Sockets. The application supports real-time communication between multiple clients through a centralized server.
 
-- 🌐 Perform HTTP GET, POST, PUT, DELETE operations  
-- 📦 Handle JSON data using parsers like `org.json` or `Gson`  
-- 🔒 Add support for token-based authentication  
-- 🧪 Robust error handling and timeout handling  
-- 🖥️ Optional CLI or basic GUI interface (planned)
+📅 Timeline
+Date	Activity
+28/05/2025	📌 Learned Java socket programming basics
+29/05/2025	🧵 Implemented multithreading and client handler
+30/05/2025	🛠️ Built server-side logic to handle message broadcasting
+31/05/2025	✅ Created client-side console app
+01/06/2025	🔒 Added message formatting and connection cleanup
+02–05/06/2025	🧪 Performed group testing with multiple users
+06/06/2025	📦 Finalized and uploaded with usage guide
 
----
+📌 Features
+🔗 Real-time messaging between multiple clients
 
-### ⚙️ Technologies Used
+🧵 Concurrent client handling using multithreading
 
-| Category         | Tools / Libraries                              |
-|------------------|------------------------------------------------|
-| Language         | Java                                           |
-| Networking       | `HttpURLConnection`, `java.net.URL`            |
-| JSON Handling    | `org.json`, `Gson` (planned)                   |
-| Error Handling   | Try-Catch blocks, HTTP status management       |
-| UI               | CLI (Command-Line Interface), GUI (optional)   |
+🔒 Graceful disconnection and error handling
 
----
+🖥️ Console-based UI
 
-### 🚀 Summary (So Far)
+⚙️ Technologies Used
+Category	Tools / Libraries
+Language	Java
+Sockets	java.net.ServerSocket, Socket
+Multithreading	Thread, Runnable
+Interface	CLI
+Utilities	Streams, BufferedReader, PrintWriter
 
-This task is helping me:
+🚀 Summary
+This project taught me:
 
-- Understand HTTP communication in Java  
-- Implement clean and reusable REST clients  
-- Parse and manipulate JSON effectively  
-- Learn to manage REST authentication and edge cases  
+How to build real-time applications
 
-🔄 **Work in progress – updates will be added regularly.**
+The use of threads in Java for concurrency
 
----
+Inter-process communication via sockets
 
-📁 **Repository maintained and updated daily.**  
+Managing shared resources with synchronization
+
+✅ Successfully implemented and tested
+
+🤖 Task 4: AI-Based Recommendation System with Java + Apache Mahout 📊
+🗓️ Task Duration: 7 June – 17 June 2025
+📝 Description
+Created a Java-based recommendation engine using Apache Mahout. The system recommends items/content to users based on preferences using collaborative filtering techniques.
+
+📅 Timeline
+Date	Activity
+07/06/2025	🧭 Intro to recommender systems & Mahout
+08/06/2025	🔍 Preprocessed dataset and explored similarity algorithms
+09/06/2025	🛠️ Created user-based recommendation engine
+10/06/2025	🧠 Implemented item-based recommendations
+11–15/06/2025	🧪 Tested with sample product/user data
+16/06/2025	✅ Performance tuning & edge case testing
+17/06/2025	📦 Final upload with documentation
+
+📌 Features
+🧠 User-based and item-based collaborative filtering
+
+🔗 Uses Apache Mahout for scalable recommendations
+
+📈 Handles datasets for preferences and interactions
+
+📦 Customizable for different domains (products, media)
+
+⚙️ Technologies Used
+Category	Tools / Libraries
+Language	Java
+ML Library	Apache Mahout
+Data Processing	CSV, custom dataset handling
+Filtering	Similarity metrics (cosine, Pearson)
+Interface	CLI (Optional UI planned)
+
+🚀 Summary
+From this task, I learned:
+
+Fundamentals of recommendation algorithms
+
+Practical usage of Apache Mahout
+
+Data-driven decision making in Java apps
+
+How to build intelligent, adaptive systems
+
+✅ Recommendation engine built and documented
+
+🏁 Final Phase: Review, Testing & Completion
+🗓️ Duration: 18 June – 30 June 2025
+📅 Timeline
+Date	Activity
+18/06/2025	🧪 Started unit testing and bug fixes
+19–21/06/2025	🔄 Code optimization, refactoring, README updates
+22–25/06/2025	🎯 Final project demos and internal presentations
+26–29/06/2025	📝 Supervisor review and project documentation finalization
+30/06/2025	🏁 Internship completion and certificate awarded
+
+🚀 Final Summary
+Throughout this internship, I developed and deployed four real-world Java-based systems. This experience helped me grow in:
+
+Core Java programming and libraries
+
+Real-time application development
+
+Working with external APIs and JSON
+
+Recommender systems and machine learning basics
+
+Git-based version control, debugging, and documentation
+
+📁 All source code and reports are maintained in the internship repository.
+
+✅ Internship successfully completed on 30 June 2025.
