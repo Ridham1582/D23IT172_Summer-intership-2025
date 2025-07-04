@@ -1,221 +1,69 @@
-🦁 **Summer Internship Report 2025 – Java Development**
-
-📛 **Name:** Vadoliya Ridham
-🏫 **College:** Charusat University
-🏢 **Company:** Elite Tech
-📆 **Internship Duration:** 14 May 2025 – 30 June 2025 (1.5 months)
-💻 **Domain:** Java Development
-
----
-
-📘 **Internship Progress & Deliverables**
-
-This repository documents the progress and deliverables of my internship starting on 14th May 2025, focused on building core Java applications and systems. Each task includes a timeline, tech stack, key features, and a learning summary.
-
----
-
-### 🔧 Task 1: File Handling Utility in Java 📁
-
-🗓️ **Task Duration:** 14 May – 21 May 2025
-
-**📝 Description:**
-Created a robust Command-Line Interface (CLI) based file handling tool in Java supporting essential file and directory operations. It is designed for ease of use, portability, and includes thorough exception handling.
-
-**📅 Timeline**
-
-* **14/05/2025:** 📌 Internship started – Project scope and planning
-* **15/05/2025:** 🔍 Studied Java I/O libraries and filesystem structure
-* **16/05/2025:** 🛠️ Implemented core file operations (read/write/copy/delete)
-* **17/05/2025:** ✅ Created functions for file modification and validation
-* **18/05/2025:** ✅ Recursive directory operations and cleanup
-* **19/05/2025:** 🧪 Tested edge cases and added error logging
-* **20/05/2025:** ✅ Finalized CLI structure and packaged application
-* **21/05/2025:** 📦 Uploaded to GitHub with documentation
-
-**📌 Features**
-
-* 📄 Create, write, read, copy, delete, and rename files
-* 📂 Manage directories and their contents recursively
-* 🔁 Supports nested operations with validation
-* 🔒 Full exception handling with custom messages
-* 🖥️ Interactive CLI interface
-
-**⚙️ Technologies Used**
-
-| Category         | Tools / Libraries                   |
-| ---------------- | ----------------------------------- |
-| Language         | Java                                |
-| I/O Handling     | java.io, java.nio.file              |
-| Utilities        | File, Path, Scanner, Files          |
-| Logging & Errors | Try-Catch blocks, custom exceptions |
-| Interface        | Command-Line Interface (CLI)        |
-
-**🚀 Summary:**
-
-* Enhanced Java I/O operations knowledge
-* CLI application development
-* Code structuring and exception management skills
-* Real-world implementation of file systems in Java
-
-✅ **Task completed and uploaded to repository**
-
----
-
-### 🌐 Task 2: REST API Client in Java 🔌
-
-🗓️ **Task Duration:** 22 May – 27 May 2025
-
-**📝 Description:**
-Built a Java-based REST API Client that connects to public APIs, sends HTTP requests, parses JSON responses, and displays the data in a structured format. Focus was on modular design and clean response handling.
-
-**📅 Timeline**
-
-* **22/05/2025:** 🧭 RESTful service overview and use case planning
-* **23/05/2025:** 🔍 Researched HTTP protocols and Java network APIs
-* **24/05/2025:** 🛠️ Built HTTP request logic and response handler
-* **25/05/2025:** 🔄 Fetched weather data from MetaWeather/OpenWeather API
-* **26/05/2025:** 🧪 Parsed JSON and structured the output to CLI
-* **27/05/2025:** ✅ Finalized error handling and UI
-
-**📌 Features**
-
-* 🔗 GET and POST request support
-* 📄 JSON parsing using org.json
-* 🔒 Basic error and timeout handling
-* 🖥️ CLI output with user-friendly messages
-
-**⚙️ Technologies Used**
-
-| Category       | Tools / Libraries               |
-| -------------- | ------------------------------- |
-| Language       | Java                            |
-| Networking     | HttpURLConnection, java.net.URL |
-| JSON Parsing   | org.json                        |
-| Interface      | CLI                             |
-| Error Handling | Try-Catch, status code checking |
-
-**🚀 Summary:**
-
-* Understood client-server communication
-* Parsed API responses efficiently
-* Handled errors gracefully in networking
-* Worked with external services and transformed data
-
-✅ **Task completed and documented**
-
----
-
-### 💬 Task 3: Multithreaded Chat Application 💻
-
-🗓️ **Task Duration:** 28 May – 6 June 2025
-
-**📝 Description:**
-Developed a multithreaded client-server chat system using Java Sockets. The application supports real-time communication between multiple clients through a centralized server.
-
-**📅 Timeline**
-
-* **28/05/2025:** 📌 Learned Java socket programming basics
-* **29/05/2025:** 🧵 Implemented multithreading and client handler
-* **30/05/2025:** 🛠️ Built server-side logic to handle message broadcasting
-* **31/05/2025:** ✅ Created client-side console app
-* **01/06/2025:** 🔒 Added message formatting and connection cleanup
-* **02–05/06/2025:** 🧪 Performed group testing with multiple users
-* **06/06/2025:** 📦 Finalized and uploaded with usage guide
-
-**📌 Features**
-
-* 🔗 Real-time messaging between multiple clients
-* 🧵 Concurrent client handling using multithreading
-* 🔒 Graceful disconnection and error handling
-* 🖥️ Console-based UI
-
-**⚙️ Technologies Used**
-
-| Category       | Tools / Libraries                    |
-| -------------- | ------------------------------------ |
-| Language       | Java                                 |
-| Sockets        | java.net.ServerSocket, Socket        |
-| Multithreading | Thread, Runnable                     |
-| Interface      | CLI                                  |
-| Utilities      | Streams, BufferedReader, PrintWriter |
-
-**🚀 Summary:**
-
-* Built real-time applications
-* Learned threading and concurrency in Java
-* Managed shared resources via sockets
-* Inter-process communication via networking
-
-✅ **Successfully implemented and tested**
-
----
-
-### 🤖 Task 4: AI-Based Recommendation System with Java + Apache Mahout 📊
-
-🗓️ **Task Duration:** 7 June – 17 June 2025
-
-**📝 Description:**
-Created a Java-based recommendation engine using Apache Mahout. The system recommends items/content to users based on preferences using collaborative filtering techniques.
-
-**📅 Timeline**
-
-* **07/06/2025:** 🧭 Intro to recommender systems & Mahout
-* **08/06/2025:** 🔍 Preprocessed dataset and explored similarity algorithms
-* **09/06/2025:** 🛠️ Created user-based recommendation engine
-* **10/06/2025:** 🧠 Implemented item-based recommendations
-* **11–15/06/2025:** 🧪 Tested with sample product/user data
-* **16/06/2025:** ✅ Performance tuning & edge case testing
-* **17/06/2025:** 📦 Final upload with documentation
-
-**📌 Features**
-
-* 🧠 User-based and item-based collaborative filtering
-* 🔗 Uses Apache Mahout for scalable recommendations
-* 📈 Handles datasets for preferences and interactions
-* 📦 Customizable for different domains (products, media)
-
-**⚙️ Technologies Used**
-
-| Category        | Tools / Libraries                    |
-| --------------- | ------------------------------------ |
-| Language        | Java                                 |
-| ML Library      | Apache Mahout                        |
-| Data Processing | CSV, custom dataset handling         |
-| Filtering       | Similarity metrics (cosine, Pearson) |
-| Interface       | CLI (Optional UI planned)            |
-
-**🚀 Summary:**
-
-* Learned recommendation algorithms
-* Practical experience with Apache Mahout
-* Built data-driven Java applications
-* Developed intelligent, adaptive recommendation systems
-
-✅ **Recommendation engine built and documented**
-
----
-
-### 🏁 Final Phase: Review, Testing & Completion
-
-🗓️ **Duration:** 18 June – 30 June 2025
-
-**📅 Timeline**
-
-* **18/06/2025:** 🧪 Started unit testing and bug fixes
-* **19–21/06/2025:** 🔄 Code optimization, refactoring, README updates
-* **22–25/06/2025:** 🎯 Final project demos and internal presentations
-* **26–29/06/2025:** 📝 Supervisor review and project documentation finalization
-* **30/06/2025:** 🏁 Internship completion and certificate awarded
-
-**🚀 Final Summary:**
-Throughout this internship, I developed and deployed four real-world Java-based systems. This experience helped me grow in:
-
-* Core Java programming and libraries
-* Real-time application development
-* Working with external APIs and JSON
-* Recommender systems and machine learning basics
-* Git-based version control, debugging, and documentation
-
-📁 **All source code and reports are maintained in the internship repository.**
-
-✅ **Internship successfully completed on 30 June 2025.**
+🌞 SUMMER INTERNSHIP REPORT 2025 – JAVA DEVELOPMENT
+👨‍🎓 Name: Vadoliya Ridham
+🏫 College: Charusat University
+🏢 Company: Elite Tech
+📆 Internship Duration: 14th May 2025 – 30th June 2025 (1.5 months)
+💻 Domain: Java Development
+
+📅 DAY-BY-DAY WORK LOG
+🛠️ WEEK 1 – JAVA FUNDAMENTALS & FILE HANDLING (14th May – 18th May)
+Day 1: Internship orientation, company introduction, Java development stack overview.
+Day 2: Java basics, OOP concepts, classes, objects, and file streams.
+Day 3: Developed file reading utility using FileReader and BufferedReader.
+Day 4: Implemented write and append functionalities using FileWriter.
+Day 5: Finalized File Handling Utility with clear documentation and test cases.
+
+📌 Task 1: FILE HANDLING UTILITY
+🛠 Create a Java program to read, write, and modify text files.
+✅ Deliverable: A script demonstrating file operations with clear documentation.
+
+🌐 WEEK 2 – REST API INTEGRATION (20th May – 24th May)
+Day 6: Introduction to HTTP requests, APIs, and Java networking.
+Day 7: Used HttpURLConnection and BufferedReader to fetch public API data.
+Day 8: Parsed JSON using libraries like org.json and displayed data.
+Day 9: Designed structured UI using Java Swing/CLI for output.
+Day 10: Completed error handling and edge case management.
+
+📌 Task 2: REST API CLIENT
+🌦 Write a Java app that consumes a public REST API (e.g., Weather) and displays structured data.
+✅ Deliverable: Java program that handles HTTP requests and parses JSON responses.
+
+💬 WEEK 3 – MULTITHREADED CHAT APPLICATION (27th May – 31st May)
+Day 11: Learned Java Sockets and ServerSocket for networking.
+Day 12: Built the chat server to accept multiple client connections.
+Day 13: Implemented multithreading to handle concurrent clients.
+Day 14: Designed message broadcasting from server to all clients.
+Day 15: Finalized the UI/CLI and tested real-time chat flow.
+
+📌 Task 3: MULTITHREADED CHAT APPLICATION
+💬 Build a client-server chat app using Java Sockets and multithreading.
+✅ Deliverable: Functional chat application supporting real-time communication.
+
+🤖 WEEK 4 – AI-BASED RECOMMENDATION SYSTEM (3rd June – 7th June)
+Day 16: Explored recommendation systems and Apache Mahout.
+Day 17: Preprocessed sample dataset and created user-item matrix.
+Day 18: Applied collaborative filtering techniques.
+Day 19: Tuned the algorithm for better recommendations.
+Day 20: Built a CLI for product/content suggestion based on input.
+
+📌 Task 4: AI-BASED RECOMMENDATION SYSTEM
+🤖 Build a Java-based recommender using Apache Mahout for product/content suggestions.
+✅ Deliverable: Java program with a working recommendation engine and sample data.
+
+🚀 WEEK 5 – REFINEMENT & FINALIZATION (10th June – 14th June)
+Day 21: Code cleanup, modularization, and performance optimization.
+Day 22: Added exception handling, logging, and user feedback mechanisms.
+Day 23: Improved UI/UX in CLI where applicable.
+Day 24: Created README files and documentation.
+Day 25: Setup GitHub repository with all tasks and final commits.
+
+🧪 WEEK 6 – TESTING & PROJECT WRAP-UP (17th June – 21st June)
+Day 26: Performed unit testing and manual testing for all tasks.
+Day 27: Code review, bug fixes, and internal demo run-through.
+Day 28: Created a slide deck for final presentation.
+Day 29: Internal feedback incorporated.
+Day 30: Final prep for presentation and repository packaging.
+
+🎤 FINAL WEEK – PRESENTATION & FEEDBACK (24th June – 30th June)
+Day 31–34: Presented all four projects to mentors and evaluators.
+Day 35: Received performance feedback and internship completion certificate.
